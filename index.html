@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五子棋 · 网页版</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>五子棋</h1>
+        <div class="game-panel">
+            <canvas id="boardCanvas" width="680" height="680"></canvas>
+            <div class="sidebar">
+                <div id="status" class="status">你的回合 (黑棋)</div>
+                <div class="buttons">
+                    <button id="modeTwoPlayer">双人对战</button>
+                    <button id="modeVsAI">人机对战</button>
+                    <button id="resetBtn">重新开始</button>
+                    <button id="menuBtn">返回菜单</button>
+                </div>
+                <div class="tips">按 M 键返回菜单 · R 键重置</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
